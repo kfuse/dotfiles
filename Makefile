@@ -5,6 +5,7 @@ all: install
 install:
 	@cp -r vim ~/.vim
 	@cp vimrc ~/.vimrc
-	@mkdir ~/.vim/bundle/
+	@mkdir -p ~/.vim/bundle/
 	@git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	@vim +PluginInstall
 
