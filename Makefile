@@ -1,5 +1,7 @@
 # install the dot files into user's home directory
 
+all: install
+
 install:
 	@cp -r vim ~/.vim
 	@cp vimrc ~/.vimrc
