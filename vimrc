@@ -4,6 +4,8 @@ set t_Co=256
 
 syntax on
 colorscheme molokai
+highlight Normal ctermbg=none
+"highlight Normal ctermbg=234  "transparent
 
 set fileencoding=japan
 set fileencodings=utf-8,euc-jp,iso-2022-jp,ucs-2le,ucs-2,cp932
